@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta name="description" content="Welcome to the digital portfolio of Nicholas F. Sia, a Toronto-based designer, currently pursuing a degree in System Design Engineering at the University of Waterloo.">
+				<meta name="keywords" content="ux, ui, system design, engineering, Nicholas Sia, design">
+				<meta name="author" content="Nicholas F. Sia">
+
 				<title>BloomBox | Photosensor Piano</title>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 				<link rel="stylesheet" type="text/css" href="../../css/main.css">
@@ -163,13 +169,13 @@
 									Your browser does not support video.
 							</video>
 							<p>In the world of music, physical limitations and disabilities may prevent people from creating beautiful melodies using traditional instruments. For example, if the person’s fingers are too short, it will hinder their ability to play many more challenging pieces on the traditional piano. Addressing this issue, a musical instrument was created resembling a piano but controlled using hands instead of relying on precise finger positions.</p>
-							<img src="bloombox1.jpg" class="image_one"/>
+							<img src="bloombox1.jpg" class="image_one" alt="BloomBox with left part opened" />
 							<h2>Goal</h2>
 								<p>This project is part of the ‘Digital Systems’ course. The project goal is to create a system using Arduino Uno that involves two of these topics: complex logic, timer, and or interrupts.</p>
 							<h2>Approach</h2>
 								<p>User limitation in operating a musical instrument was chosen as the main topic. Coming from a personal experience of having short fingers and had tried to learn to play piano, it’s decided to create a piano-like instrument that requires the user's hand to hover on top of a sensor to play a note.</p>
 								<p>Started by creating a basic piano with buttons, then, photo-resistors are introduced to the system and tested.</p>
-								<img src="bloombox2.jpg" class="image_one"/>	
+								<img src="bloombox2.jpg" class="image_one" alt="Photo-resistor implementation on BloomBox prototype" />	
 								<p>There was a challenge when triads chords were attempted using the prototype at the time. It could not perform three output at the same time using only one Arduino. The solution was to use three Arduinos, each has a speaker to play one of the notes from the chord. The way each Arduino communicates with each other is using 3 bits binary code. Each combination represents certain information and will be interpreted differently by each Arduino. Then each Arduino will remain silent or play different notes if the signal is a chord signal.</p>
 								<p>In addition, a metronome was added to help user keeps track on the pace. The metronome can be adjusted to be faster or slower pace. The metronome involves interrupts to control its pace. There’s also an auto-off activated after a certain amount of time the BloomBox is not played, controlled by a custom timer.</p>
 								<p>Finally, the advantage of using this piano is no hand touch nor finger movement are required, thus short fingers should not be a problem. The disadvantage of this piano is it will be difficult to play chords consisted of more than two notes due to number of hands limitation per person.</p>
