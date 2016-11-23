@@ -260,6 +260,12 @@ figcaption {
     color: #356873;
 }
 
+.back_item {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .img-thumb {
 	width: 100%;
 }
