@@ -232,6 +232,18 @@ figcaption {
 	float: left;
 }
 
+.about_me { 
+	display: inline-block;
+	margin-bottom: 20px;
+ }
+
+.profile_picture {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
 
 .answer {
 	color: #356873;
@@ -365,6 +377,17 @@ figcaption {
 
 }
 
+@media only all and (max-device-width: 540px) {
+	.profile_picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	margin-bottom: 20px;
+}
+
+	}
+
 @media only all and (max-device-width: 431px) {
     .logo_top {
 		width: 77px;
@@ -469,6 +492,16 @@ figcaption {
     }
 
 }
+
+@media only screen and (max-width: 540px) {
+	.profile_picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	margin-bottom: 20px;
+}
+
 
 
 @media only screen and (max-width: 431px) {
