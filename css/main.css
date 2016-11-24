@@ -50,6 +50,10 @@ figcaption {
 .linethrough {
 	text-decoration: line-through;
 }
+.italicize {
+	font-style: italic;
+	color: #356873;
+}
 .main_nav {
 	position: fixed;
 	width: 290px;
@@ -237,17 +241,26 @@ figcaption {
 	margin-bottom: 20px;
  }
 
+ .profile_picture_container{
+ 	width: 220px;
+ 	float: left;
+ 	display: inline-block;
+ }
+
 .profile_picture {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
+	width: 100%;
+}
+
+.text_about_me {
+	width: calc(100% - 240px);
 	float: left;
-	margin-right: 20px;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .answer {
 	color: #356873;
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 .masonry {
@@ -378,7 +391,7 @@ figcaption {
 }
 
 @media only all and (max-device-width: 540px) {
-	.profile_picture {
+	.profile_picture_container {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -386,6 +399,10 @@ figcaption {
 	margin-bottom: 20px;
 }
 
+	.text_about_me {
+	width: 100%;
+	margin-left: 0;
+}
 	}
 
 @media only all and (max-device-width: 431px) {
@@ -493,14 +510,7 @@ figcaption {
 
 }
 
-@media only screen and (max-width: 540px) {
-	.profile_picture {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	float: none;
-	margin-bottom: 20px;
-}
+
 
 
 
@@ -578,6 +588,23 @@ figcaption {
 		margin-left: auto;
 		margin-right: auto;
     }
+}
+
+@media only screen and (max-width: 1130px) {
+	.profile_picture_container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	margin-bottom: 20px;
+	width: 80%;
+	}
+
+	.text_about_me {
+	width: 100%;
+	margin-left: 0;
+	}
+
 }
 
 @media only screen and (min-width: 1380px) {
