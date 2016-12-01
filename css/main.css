@@ -59,7 +59,7 @@ figcaption {
 	width: 290px;
 	border-right: 1px #cccccc solid;
 	height: 100%;
-	margin: 10px 0 20px 10px;
+	margin: 20px 0 20px 10px;
 	padding-left: 15px;
 	padding-right: 11px;
 
@@ -232,7 +232,7 @@ figcaption {
 
 
 .content {
-	margin: 10px 20px 0 320px;
+	margin: 20px 50px 0 350px;
 	float: left;
 }
 
@@ -266,17 +266,16 @@ figcaption {
 .masonry {
     margin: 1.5em 0;
     padding: 0;
-    -moz-column-gap: 1.5em;
-    -webkit-column-gap: 1.5em;
-    column-gap: 1.5em;
+    -moz-column-gap: 1.8em;
+    -webkit-column-gap: 1.8em;
+    column-gap: 1.6em;
     font-size: 1em;
 }
 
 .item {
     display: inline-block;
-    background: #f6f5f0;
-    padding: 0.7em;
-    margin: 0 0 1.5em;
+    background: #faf9f6;
+    margin: 0 0 1.6em;
     width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -284,6 +283,12 @@ figcaption {
     box-shadow: 2px 2px 8px 0 #ccc;
     color: #356873;
 }
+
+.blurb {
+	padding: 8px 8px 16px 8px;
+}
+
+
 
 .back_item {
 	width: 30%;
@@ -293,6 +298,10 @@ figcaption {
 
 .img-thumb {
 	width: 100%;
+}
+
+.logo {
+	padding: 10px;
 }
 
 #youtube_thumb {
