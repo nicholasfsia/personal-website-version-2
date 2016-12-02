@@ -526,7 +526,7 @@ figcaption {
 	.explanation {
 		padding-right: 0;
 		padding-left: 0;
-		margin: 15px 10px 0 10px;
+		margin: 15px 15px 0 15px;
 	}
 
 	.backbutton {
@@ -607,12 +607,36 @@ figcaption {
 
 }
 
-
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 550px) {
     .masonry {
         -moz-column-count: 2;
         -webkit-column-count: 2;
         column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+
+}
+
+@media only screen and (min-width: 1050px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
     }
 
 }
@@ -631,9 +655,9 @@ figcaption {
 
 @media only screen and (min-width: 1380px) {
     .masonry {
-        -moz-column-count: 3;
-        -webkit-column-count: 3;
-        column-count: 3;
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
     }
     .explanation {
     	padding-right: 150px;
@@ -645,9 +669,9 @@ figcaption {
 
 @media only screen and (min-width: 1720px) {
     .masonry {
-        -moz-column-count: 4;
-        -webkit-column-count: 4;
-        column-count: 4;
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
     }
     .explanation {
     	padding-right: 300px;
