@@ -232,13 +232,12 @@ figcaption {
 
 
 .content {
-	margin: 20px 50px 0 350px;
-	float: left;
+	margin: 0px 50px 0 350px;
 }
 
 .about_me { 
 	display: inline-block;
-	margin-bottom: 20px;
+	margin: 20px 0 20px 0;
  }
 
  .profile_picture_container{
@@ -509,6 +508,11 @@ figcaption {
     	padding-right: 5%;
     }
 
+    .answer {
+    	font-size: 1.2em;
+
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -590,8 +594,8 @@ figcaption {
 
 @media only screen and (max-width: 394px) {
     .menu_top li {
-		margin-left: 3.2px;
-		margin-right: 3.2px;
+		margin-left: 10px;
+		margin-right: 10px;
 		font-size: 1.25em;
 	}
 }
