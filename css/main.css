@@ -19,17 +19,17 @@ a:hover {
 }
 
 h1 {
-	font-size: 1.6em;
+	font-size: 22.4px;
 	color: #163044;
 	margin-top: 0;
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 18.4px;
 }
 
 h3 {
-	font-size: 1.2em;
+	font-size: 16.8px;
 }
 
 section {
@@ -37,7 +37,7 @@ section {
 }
 
 p {
-	font-size: 1.1em;
+	font-size: 15.4px;
 }
 
 figcaption {
@@ -119,7 +119,7 @@ figcaption {
 	font-size: 22px;
 	color: #163044;
 	width: 100%;
-	display: block;
+	display: inline-block;
 }
 
 #contactinfo {
@@ -142,7 +142,6 @@ figcaption {
 }
 
 .mytag {
-	margin-top: 5px;
 	font-size: 16px;
 	color: #356873;
 }
@@ -174,7 +173,7 @@ figcaption {
 }
 
 .name_top {
-	font-size: 1.7em;
+	font-size: 23.8px;
 	text-align: left;
 }
 
@@ -182,7 +181,7 @@ figcaption {
 	margin: 0;
 	text-align: left;
 	color: #356873;
-	font-size: 1.2em;
+	font-size: 16.8px;
 }
 
 .menu_top {
@@ -201,7 +200,7 @@ figcaption {
 	display: inline-block;
 	margin-left: 10px;
 	margin-right: 10px;
-	font-size: 1.4em
+	font-size: 19.6px;
 }
 
 
@@ -259,7 +258,7 @@ figcaption {
 
 .answer {
 	color: #356873;
-	font-size: 1.4em;
+	font-size: 19.6px;
 }
 
 .masonry {
@@ -367,16 +366,16 @@ figcaption {
 
 
 .contentpage_specific h1 {
-	font-size: 1.8em;
+	font-size: 25.2px;
 	margin-bottom: 20px;
 }
 
 .contentpage_specific h2 {
-	font-size: 1.6em;
+	font-size: 22.4px;
 }
 
 .contentpage_specific h3 {
-	font-size: 1.4em;
+	font-size: 19.6px;
 }
 
 .collection h2 {
@@ -427,11 +426,11 @@ figcaption {
 	}
 
 	.name_top {
-		font-size: 1.5em;
+		font-size: 21px;
 	}
 
 	.tag_top {
-		font-size: 1.1em;
+		font-size: 15.4px;
 	}
 }
 
@@ -439,7 +438,7 @@ figcaption {
     .menu_top li {
 		margin-left: 3.2px;
 		margin-right: 3.2px;
-		font-size: 1.25em;
+		font-size: 17.5px;
 	}
 }
 @media only all and (max-device-width: 320px) {
@@ -450,11 +449,11 @@ figcaption {
 	}
 
 	.name_top {
-		font-size: 1.3em;
+		font-size: 18.2px;
 	}
 
 	.tag_top {
-		font-size: 0.9em;
+		font-size: 12.6px;
 	}
 }
 
@@ -509,7 +508,7 @@ figcaption {
     }
 
     .answer {
-    	font-size: 1.2em;
+    	font-size: 16.8px;
 
     }
 
