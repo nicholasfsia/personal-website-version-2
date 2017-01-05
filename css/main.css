@@ -198,8 +198,8 @@ figcaption {
 
 .menu_top li {
 	display: inline-block;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 	font-size: 19.6px;
 }
 
@@ -436,8 +436,8 @@ figcaption {
 
 @media only all and (max-device-width: 394px) {
     .menu_top li {
-		margin-left: 3.2px;
-		margin-right: 3.2px;
+		margin-left: 10px;
+		margin-right: 10px;
 		font-size: 17.5px;
 	}
 }
@@ -566,11 +566,11 @@ figcaption {
 	}
 
 	.name_top {
-		font-size: 1.5em;
+		font-size: 21px;
 	}
 
 	.tag_top {
-		font-size: 1.1em;
+		font-size: 15.4px;
 	}
 
 	.profile_picture_container {
@@ -595,7 +595,7 @@ figcaption {
     .menu_top li {
 		margin-left: 10px;
 		margin-right: 10px;
-		font-size: 1.25em;
+		font-size: 17.5px;
 	}
 }
 
@@ -607,11 +607,11 @@ figcaption {
 	}
 
 	.name_top {
-		font-size: 1.3em;
+		font-size: 18.2px;
 	}
 
 	.tag_top {
-		font-size: 0.9em;
+		font-size: 12.6px;
 	}
 
 }
