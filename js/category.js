@@ -3,7 +3,7 @@ var all = document.getElementById("all"),
 	gd = document.getElementById("gd"),
 	hardware = document.getElementById("hardware"),
 
-	uwaterloo_library_mobile = document.getElementById("uwaterloo_library_mobile"),
+	uwaterloo_librarymobile = document.getElementById("uwaterloo_library_mobile"),
 	bloombox = document.getElementById("bloombox"),
 	instagram = document.getElementById("instagram"),
 	personal_website = document.getElementById("personal_website"),
@@ -13,9 +13,13 @@ var all = document.getElementById("all"),
 	personal_logo = document.getElementById("personal_logo"),
 	cad = document.getElementById("cad"),
 	wedding = document.getElementById("wedding"),
-	poster = document.getElementById("poster"),
-	editorial = document.getElementById("editorial");
+	poster = document.getElementById("poster");
 
+	/* need to iterate each index of class to change its display
+	ui_ux_class = document.getElementsByClassName("ui_ux"),
+	gd_class = document.getElementsByClassName("gd"),
+	hardware_class = document.getElementsByClassName("hardware");
+	*/
 
 
 all.addEventListener("click", function() {
@@ -31,7 +35,13 @@ all.addEventListener("click", function() {
 	hardware.style.color = "#356873";
 	hardware.style.textDecoration = "none";
 
-	uwaterloo_library_mobile.display ="inline-block";
+	/*
+	ui_ux_class.style.display = "inline-block";
+	gd_class.style.display = "inline-block";
+	hardware_class.style.display = "inline-block";
+	*/
+
+	uwaterloo_librarymobile.style.display ="inline-block";
 	bloombox.style.display = "inline-block";
 	instagram.style.display = "inline-block";
 	personal_website.style.display = "inline-block";
@@ -43,7 +53,6 @@ all.addEventListener("click", function() {
 	wedding.style.display = "inline-block";
 	poster.style.display = "inline-block";
 	editorial.style.display = "inline-block";
-
 });
 
 ui_ux.addEventListener("click", function() {
@@ -58,8 +67,13 @@ ui_ux.addEventListener("click", function() {
 
 	hardware.style.color = "#356873";
 	hardware.style.textDecoration = "none";
+	/*
+	ui_ux_class.style.display = "inline-block";
+	gd_class.style.display = "none";
+	hardware_class.style.display = "none";
+	*/
 
-	uwaterloo_library_mobile.display ="inline-block";
+	uwaterloo_librarymobile.style.display ="inline-block";
 	bloombox.style.display = "none";
 	instagram.style.display = "inline-block";
 	personal_website.style.display = "inline-block";
@@ -71,6 +85,7 @@ ui_ux.addEventListener("click", function() {
 	wedding.style.display = "none";
 	poster.style.display = "none";
 	editorial.style.display = "none";
+
 });
 
 gd.addEventListener("click", function() {
@@ -86,7 +101,13 @@ gd.addEventListener("click", function() {
 	hardware.style.color = "#356873";
 	hardware.style.textDecoration = "none";
 
-	uwaterloo_library_mobile.display ="none";
+	/*
+	ui_ux_class.style.display = "none";
+	gd_class.style.display = "inline-block";
+	hardware_class.style.display = "none";
+	*/
+
+	uwaterloo_librarymobile.style.display ="none";
 	bloombox.style.display = "none";
 	instagram.style.display = "none";
 	personal_website.style.display = "none";
@@ -113,7 +134,13 @@ hardware.addEventListener("click", function() {
 	hardware.style.color = "#163044";
 	hardware.style.textDecoration = "underline";
 
-	uwaterloo_library_mobile.display ="none";
+	/*
+	ui_ux_class.style.display = "none";
+	gd_class.style.display = "none";
+	hardware_class.style.display = "inline-block";
+	*/
+
+	uwaterloo_librarymobile.style.display ="none";
 	bloombox.style.display = "inline-block";
 	instagram.style.display = "none";
 	personal_website.style.display = "none";
@@ -125,4 +152,5 @@ hardware.addEventListener("click", function() {
 	wedding.style.display = "none";
 	poster.style.display = "none";
 	editorial.style.display = "none";
+
 });
