@@ -4,6 +4,7 @@ var all = document.getElementById("all"),
 	gd = document.getElementById("gd"),
 	hardware = document.getElementById("hardware"),
 
+	uwaterloo_library_mobile = document.getElementById("uwaterloo_library_mobile"),
 	bloombox = document.getElementById("bloombox"),
 	instagram = document.getElementById("instagram"),
 	personal_website = document.getElementById("personal_website"),
@@ -31,6 +32,7 @@ all.addEventListener("click", function() {
 	hardware.style.color = "#356873";
 	hardware.style.textDecoration = "none";
 
+	uwaterloo_library_mobile.display ="inline-block";
 	bloombox.style.display = "inline-block";
 	instagram.style.display = "inline-block";
 	personal_website.style.display = "inline-block";
@@ -58,6 +60,7 @@ ui_ux.addEventListener("click", function() {
 	hardware.style.color = "#356873";
 	hardware.style.textDecoration = "none";
 
+	uwaterloo_library_mobile.display ="inline-block";
 	bloombox.style.display = "none";
 	instagram.style.display = "inline-block";
 	personal_website.style.display = "inline-block";
@@ -84,6 +87,7 @@ gd.addEventListener("click", function() {
 	hardware.style.color = "#356873";
 	hardware.style.textDecoration = "none";
 
+	uwaterloo_library_mobile.display ="none";
 	bloombox.style.display = "none";
 	instagram.style.display = "none";
 	personal_website.style.display = "none";
@@ -110,6 +114,7 @@ hardware.addEventListener("click", function() {
 	hardware.style.color = "#163044";
 	hardware.style.textDecoration = "underline";
 
+	uwaterloo_library_mobile.display ="none";
 	bloombox.style.display = "inline-block";
 	instagram.style.display = "none";
 	personal_website.style.display = "none";
