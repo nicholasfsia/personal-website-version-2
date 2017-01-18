@@ -146,6 +146,15 @@ figcaption {
 	color: #356873;
 }
 
+.myblurb {
+	font-size: 16px;
+	/*color: #356873;*/
+	margin-top: 10px;
+	margin-right: 14px;
+}
+
+
+
 
 /*Wide Nav*/
 .wide_nav {
@@ -364,6 +373,9 @@ footer p {
 	color: #878787;
 }
 
+#about-me-footer {
+	display: inline-block;
+}
 /*Page Specific*/
 
 .contentpage_specific {
