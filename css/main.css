@@ -239,6 +239,8 @@ figcaption {
 	margin: 20px 0 20px 0;
  }
 
+
+
  .profile_picture_container{
  	width: 220px;
  	float: left;
@@ -271,7 +273,7 @@ figcaption {
 }
 
 .category {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
     
 }
