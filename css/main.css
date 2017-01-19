@@ -342,6 +342,10 @@ figcaption {
 	margin-right: auto;
 }
 
+#back_item {
+	display: none;
+}
+
 .img-thumb {
 	width: 100%;
 }
@@ -590,6 +594,10 @@ footer p {
 	.myblurb {
 		margin-left: 10%;
 		margin-right: 10%;
+	}
+
+	#back_item {
+		display: block;
 	}
 
 }
