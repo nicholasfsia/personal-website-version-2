@@ -37,7 +37,7 @@ section {
 }
 
 p {
-	font-size: 15.4px;
+	font-size: 16px;
 }
 
 figcaption {
@@ -400,8 +400,8 @@ footer p {
 	padding-right: 10%;
 	padding-left: 10%;
 	padding-bottom: 30px;
+	line-height: 1.7;
 }
-
 
 .project_title {
 	text-align: center;
