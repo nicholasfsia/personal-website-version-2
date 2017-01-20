@@ -322,7 +322,7 @@ figcaption {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
     color: #356873;
     -webkit-transition: all .4s cubic-bezier(.77,0,.175,1);
     transition: all .4s cubic-bezier(.77,0,.175,1);
