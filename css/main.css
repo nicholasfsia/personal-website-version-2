@@ -80,6 +80,7 @@ figcaption {
 
 .logo_container:hover .st0, .logo_top:hover .st0, .backbutton:hover .st0, .back_item:hover .st0 {
 	fill: #163044;
+	transition: all .5s;
 }
 
 /*.logo_top:hover .st0 {
@@ -281,9 +282,9 @@ figcaption {
 .masonry {
     margin: 1.5em 0;
     padding: 0;
-    -moz-column-gap: 1.8em;
-    -webkit-column-gap: 1.8em;
-    column-gap: 1.6em;
+    -moz-column-gap: 2em;
+    -webkit-column-gap: 2em;
+    column-gap: 2em;
     font-size: 1em;
 }
 
