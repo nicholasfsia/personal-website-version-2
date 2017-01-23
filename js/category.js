@@ -11,16 +11,20 @@ var all = document.getElementById("all"),
 
 all.addEventListener("click", function() {
 	all.style.color = "#163044";
-	all.style.textDecoration = "underline";
+	//all.style.textDecoration = "underline";
+	all.style.borderBottom = "medium solid #163044";
 
 	ui_ux.style.color = "#356873";
-	ui_ux.style.textDecoration = "none";
+	//ui_ux.style.textDecoration = "none";
+	ui_ux.style.borderBottom = "none";
 
 	gd.style.color = "#356873";
-	gd.style.textDecoration = "none";
+	//gd.style.textDecoration = "none";
+	gd.style.borderBottom = "none";
 
 	hardware.style.color = "#356873";
-	hardware.style.textDecoration = "none";
+	//hardware.style.textDecoration = "none";
+	hardware.style.borderBottom = "none";
 
 
 	for(i=0; i<ui_ux_class.length; i++) {
@@ -39,16 +43,20 @@ all.addEventListener("click", function() {
 
 ui_ux.addEventListener("click", function() {
 	all.style.color = "#356873";
-	all.style.textDecoration = "none";
+	//all.style.textDecoration = "none";
+	all.style.borderBottom = "none";
 
 	ui_ux.style.color = "#163044";
-	ui_ux.style.textDecoration = "underline";
+	//ui_ux.style.textDecoration = "underline";
+	ui_ux.style.borderBottom = "medium solid #163044";
 
 	gd.style.color = "#356873";
-	gd.style.textDecoration = "none";
+	//gd.style.textDecoration = "none";
+	gd.style.borderBottom = "none";
 
 	hardware.style.color = "#356873";
-	hardware.style.textDecoration = "none";
+	//hardware.style.textDecoration = "none";
+	hardware.style.borderBottom = "none";
 
 	for(i=0; i<ui_ux_class.length; i++) {
 		ui_ux_class[i].style.display = "inline-block";
@@ -68,15 +76,20 @@ ui_ux.addEventListener("click", function() {
 gd.addEventListener("click", function() {
 	all.style.color = "#356873";
 	all.style.textDecoration = "none";
+	all.style.borderBottom = "none";
+
 
 	ui_ux.style.color = "#356873";
-	ui_ux.style.textDecoration = "none";
+	//ui_ux.style.textDecoration = "none";
+	ui_ux.style.borderBottom = "none";
 
 	gd.style.color = "#163044";
-	gd.style.textDecoration = "underline";
+	//gd.style.textDecoration = "underline";
+	gd.style.borderBottom = "medium solid #163044";
 
 	hardware.style.color = "#356873";
-	hardware.style.textDecoration = "none";
+	//hardware.style.textDecoration = "none";
+	hardware.style.borderBottom = "none";
 
 	for(i=0; i<ui_ux_class.length; i++) {
 		ui_ux_class[i].style.display = "none";
@@ -95,16 +108,20 @@ gd.addEventListener("click", function() {
 
 hardware.addEventListener("click", function() {
 	all.style.color = "#356873";
-	all.style.textDecoration = "none";
+	//all.style.textDecoration = "none";
+	all.style.borderBottom = "none";
 
 	ui_ux.style.color = "#356873";
-	ui_ux.style.textDecoration = "none";
+	//ui_ux.style.textDecoration = "none";
+	ui_ux.style.borderBottom = "none";
 
 	gd.style.color = "#356873";
-	gd.style.textDecoration = "none";
+	//gd.style.textDecoration = "none";
+	gd.style.borderBottom = "none";
 
 	hardware.style.color = "#163044";
-	hardware.style.textDecoration = "underline";
+	//hardware.style.textDecoration = "underline";
+	hardware.style.borderBottom = "medium solid #163044";
 
 	for(i=0; i<ui_ux_class.length; i++) {
 		ui_ux_class[i].style.display = "none";
