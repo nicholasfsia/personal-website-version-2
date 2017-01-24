@@ -321,16 +321,15 @@ figcaption {
 }
 
 .category li:hover{
-	color: #163044;
+	color: #163044 !important;
 	/*text-decoration: underline;*/
-	border-bottom: medium solid #163044;
+	border-bottom: medium solid #163044 !important;
 	transition: all 0.2s;
 	-webkit-transition: all 0.2s;
 }
 
 #all {
 	color: #163044;
-	/*text-decoration: underline;*/
 	border-bottom: medium solid #163044;
 }
 

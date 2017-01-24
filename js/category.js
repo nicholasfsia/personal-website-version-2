@@ -44,7 +44,7 @@ all.addEventListener("click", function() {
 ui_ux.addEventListener("click", function() {
 	all.style.color = "#356873";
 	//all.style.textDecoration = "none";
-	all.style.borderBottom = "none";
+	all.style.borderBottom = "0px solid #163044";
 
 	ui_ux.style.color = "#163044";
 	//ui_ux.style.textDecoration = "underline";
@@ -52,11 +52,11 @@ ui_ux.addEventListener("click", function() {
 
 	gd.style.color = "#356873";
 	//gd.style.textDecoration = "none";
-	gd.style.borderBottom = "none";
+	gd.style.borderBottom = "0px solid #163044";
 
 	hardware.style.color = "#356873";
 	//hardware.style.textDecoration = "none";
-	hardware.style.borderBottom = "none";
+	hardware.style.borderBottom = "0px solid #163044";
 
 	for(i=0; i<ui_ux_class.length; i++) {
 		ui_ux_class[i].style.display = "inline-block";
