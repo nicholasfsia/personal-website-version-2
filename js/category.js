@@ -35,7 +35,7 @@ all.addEventListener("click", function() {
 		gd_class[i].style.display = "inline-block";
 	}
 
-	for(i=0; i<ui_ux_class.length; i++) {
+	for(i=0; i<hardware_class.length; i++) {
 		hardware_class[i].style.display = "inline-block";
 	}
 
@@ -66,7 +66,7 @@ ui_ux.addEventListener("click", function() {
 		gd_class[i].style.display = "none";
 	}
 
-	for(i=0; i<ui_ux_class.length; i++) {
+	for(i=0; i<hardware_class.length; i++) {
 		hardware_class[i].style.display = "none";
 	}
 
@@ -99,7 +99,7 @@ gd.addEventListener("click", function() {
 		gd_class[i].style.display = "inline-block";
 	}
 
-	for(i=0; i<ui_ux_class.length; i++) {
+	for(i=0; i<hardware_class.length; i++) {
 		hardware_class[i].style.display = "none";
 	}
 
@@ -131,7 +131,7 @@ hardware.addEventListener("click", function() {
 		gd_class[i].style.display = "none";
 	}
 
-	for(i=0; i<ui_ux_class.length; i++) {
+	for(i=0; i<hardware_class.length; i++) {
 		hardware_class[i].style.display = "inline-block";
 	}
 

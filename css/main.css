@@ -18,7 +18,7 @@ a:hover {
 	text-decoration: none;
 	border-bottom: medium solid #163044;
 	transition: all 0.2s;
-	-webkit-transition: all 0.2s
+	-webkit-transition: all 0.2s;
 	color: #163044;
 }
 
@@ -157,6 +157,7 @@ figcaption {
 .mytag {
 	font-size: 16px;
 	color: #356873;
+	letter-spacing: 0.04em;
 }
 
 .myblurb {
@@ -209,6 +210,7 @@ figcaption {
 	text-align: left;
 	color: #356873;
 	font-size: 16.8px;
+	letter-spacing: 0.04em;
 }
 
 .menu_top {
@@ -315,6 +317,7 @@ figcaption {
 	font-size: 18px;
 	cursor:pointer;
 	color: #356873;
+	height: 30px;
 }
 
 .category li:hover{
@@ -344,6 +347,7 @@ figcaption {
     color: #356873;
     -webkit-transition: all .4s cubic-bezier(.77,0,.175,1);
     transition: all .4s cubic-bezier(.77,0,.175,1);
+    cursor: pointer;
 }
 
 .item:hover {
@@ -388,6 +392,7 @@ figcaption {
 .item h2 {
 	margin: 5px 0 5px 0;
 	line-height: 1.3;
+	color: #356873;
 }
 
 .item p {
@@ -511,6 +516,7 @@ footer p {
 
 	.tag_top {
 		font-size: 15.4px;
+		letter-spacing: 0.04em;
 	}
 }
 
@@ -534,6 +540,7 @@ footer p {
 
 	.tag_top {
 		font-size: 12.6px;
+		letter-spacing: 0.04em;
 	}
 }
 
@@ -653,6 +660,7 @@ footer p {
 
 	.tag_top {
 		font-size: 15.4px;
+		letter-spacing: 0.04em;
 	}
 
 	.profile_picture_container {
