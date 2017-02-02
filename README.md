@@ -1,4 +1,4 @@
-# nicholasfsia.me 2.0
+# http://nicholasfsia.me/personal-website-version-2/
 
-http://nicholasfsia.me/
+nicholasfsia.me 2.0
 A website for showcasing projects, works, and thoughts.
